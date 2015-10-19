@@ -15,8 +15,8 @@ var assetFolder = Path.resolve(__dirname, '../client/public');
 app.use(express.static(assetFolder));
 
 
-app.post('/whoo', function(req, res){
-  console.log('req:', req.body.greeting);
+app.post('/location', function(req, res){
+  console.log('city:', req.body.city);
   res.end();
 });
 

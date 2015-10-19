@@ -1,12 +1,12 @@
 var m = require('mithril');
 var Weather = require('../models/weather');
+var Location = require('../models/location');
 
 
 var MainComponent = module.exports;
 
 MainComponent.controller = function (options) {
   var ctrl = this;
-  Weather.fetch()
 };
 
 MainComponent.view = function (ctrl, options) {
