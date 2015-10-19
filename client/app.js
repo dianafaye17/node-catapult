@@ -1,16 +1,17 @@
-var m = require('mithril')
-var MyComponent = require('./components/MyComponent')
+var m = require('mithril');
+var MainComponent = require('./components/MainComponent');
 
 
-window.App = {}
+window.App = {};
 
-App.controller = function () {}
+App.controller = function () {
+};
 
 App.view = function (ctrl) {
   return [
-    m('h1', 'Node Catapult'),
-    m.component(MyComponent, { title: 'Welcome to my app!' })
-  ]
-}
+    m('h1', 'The Weather House'),
+    m.component(MainComponent, { title: 'Welcome to The Weather House!' })
+  ];
+};
 
-m.mount(document.getElementById('app'), App)
+m.mount(document.getElementById('app'), App);
