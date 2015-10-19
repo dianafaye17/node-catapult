@@ -16,16 +16,19 @@ var assetFolder = Path.resolve(__dirname, '../client/public');
 app.use(express.static(assetFolder));
 
 
+
 app.post('/location', function(req, res){
+  var expressResponse = res
   console.log('cityityity:', req.body.city);
-  request('http://api.openweathermap.org/data/2.5/forecast?q=' + req.body.city + ',us&mode=json&APPID=ececcfb4caeb3b2914646d9670f17dfc',
+  request('http://api.openweathermap.org/data/2.5/weather?q=' + req.body.city + ',us&mode=json&units=imperial&APPID=ececcfb4caeb3b2914646d9670f17dfc',
     function(err, res, body) {
       if (err) {
         console.log('Error:', err);
       }
-      console.log('body:', body);
+      else {
+        expressResponse.end(body);
+      }
     })
-  res.end();
 });
 
 //
