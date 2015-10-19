@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var Path = require('path');
 var bodyParser = require('body-parser');
+var request = require('request');
 
 // Provide a browserified file at a specified path
 app.get('/js/app-bundle.js',
@@ -16,7 +17,14 @@ app.use(express.static(assetFolder));
 
 
 app.post('/location', function(req, res){
-  console.log('city:', req.body.city);
+  console.log('cityityity:', req.body.city);
+  request('http://api.openweathermap.org/data/2.5/forecast?q=' + req.body.city + ',us&mode=json&APPID=ececcfb4caeb3b2914646d9670f17dfc',
+    function(err, res, body) {
+      if (err) {
+        console.log('Error:', err);
+      }
+      console.log('body:', body);
+    })
   res.end();
 });
 

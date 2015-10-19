@@ -6,8 +6,6 @@ var CityInput = module.exports;
 
 CityInput.controller = function (options) {
   var ctrl = this;
-  Location.sendCity();
-  this.city;
   this.inputDirty = false;
 };
 
@@ -20,14 +18,15 @@ CityInput.view = function (ctrl, options) {
           ctrl.city = e.target['value'];
           ctrl.inputDirty = true;
           if (ctrl.inputDirty) {
-            ctrl.cityGreeting = 'You live in '+ ctrl.city + '!'
+            ctrl.cityGreeting = 'You live in '+ (ctrl.city || 'a magical land far, far away') + '!'
           }
         }
       }),
     ]),
     m('button', {
       onclick: function(e) {
-        console.log('clicked');
+        console.log('City sent:', ctrl.city);
+        Location.sendCity(ctrl.city);
       }
     }, 'GO!'),
     m('p', ctrl.cityGreeting)
