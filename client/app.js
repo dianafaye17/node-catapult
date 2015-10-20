@@ -15,9 +15,11 @@ App.controller = function () {
 
 App.view = function (ctrl) {
   return [
-    m('p', {class: ctrl.season}),
-    m('h1', 'The Weather House'),
-    m.component(MainComponent, { title: 'Welcome to The Weather House!' }),
+    m('div', {class: ctrl.season}, [
+      m('h1', 'The Weather House'),
+      m('h4', '(← I change every season!)')
+    ]),
+    m.component(MainComponent, { title: 'Welcome to The Weather House!'}),
     m.component(CityInputComponent),
     m.component(WeatherDisplayComponent)
   ];

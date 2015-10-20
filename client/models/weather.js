@@ -20,18 +20,17 @@ Weather.getSeason = function() {
     var month = date.getMonth();
 
     if (month === 11 || month < 2) { // 11, 0, 1
-      return 'NorthernWinter';
+      return 'winter';
     }
     else if (month > 1 && month < 5) {  // 2, 3, 4
-      return 'NorthernSpring';
+      return 'spring';
     }
     else if (month > 4 && month < 8) { // 5, 6, 7
-      return 'NorthernSummer';
+      return 'summer';
     }
-    else if (month > 7) { // 8, 9, 10
-      return 'NorthernFall';
+    else { // 8, 9, 10
+      return 'fall';
     }
-    else {return 'Season error'};
 }
 
 Weather.wetWeatherConditions = {

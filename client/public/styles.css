@@ -1,7 +1,21 @@
 body {
   background: lightblue;
+  color: white;
 }
 
-.main-body.spring {
-  background: pink;
+.spring {
+  background-image: url(spring.jpg);
 }
+
+.summer {
+  background-image: url(summer.jpg);
+}
+
+.fall {
+  background-image: url(fall.jpg);
+}
+
+.winter {
+  background-image: url(winter.jpg);
+}
+
