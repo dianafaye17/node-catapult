@@ -14,7 +14,3 @@ Weather.fetch = function(city) {
       return Weather.report;
     })
 };
-
-
-// weatherData.weather = res["weather"][0]["main"];
-// weatherData.temp = res["main"]["temp"];

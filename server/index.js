@@ -25,7 +25,7 @@ app.post('/location', function(req, res){
         console.log('Error:', err);
       }
       else {
-        expressResponse.end(body);
+        expressResponse.send(body);
       }
     })
 });

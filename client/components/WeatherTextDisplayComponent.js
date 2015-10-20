@@ -10,9 +10,15 @@ WeatherTextDisplayCompenent.controller = function (options) {
 };
 
 WeatherTextDisplayCompenent.view = function (ctrl, options) {
-  return m('.weather-text-component', [
-    m('p', JSON.stringify(Weather.report)),
-    m('p', JSON.stringify(Weather.report)),
-    m('p', 'cheese')
-  ]);
+  if (Weather.report) {
+    return m('.weather-text-component', [
+      m('p', JSON.stringify(Weather.report["weather"][0]["main"])),
+      m('p', JSON.stringify(Weather.report["main"]["temp"])),
+      m('p', 'cheese')
+    ]);
+  }
+  else {
+    return m('div', '');
+  }
+
 };

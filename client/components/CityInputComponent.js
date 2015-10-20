@@ -18,6 +18,11 @@ CityInputComponent.controller = function (options) {
       ctrl.cityGreeting = 'You live in '+ (ctrl.city || 'a magical land far, far away') + '!'
     }
   }
+
+  ctrl.fetchWeather = function() {
+    console.log('blah ran');
+    Weather.fetch(ctrl.city);
+  }
 };
 
 CityInputComponent.view = function (ctrl, options) {
@@ -29,7 +34,7 @@ CityInputComponent.view = function (ctrl, options) {
       ),
     ]),
     m('button', {
-      onclick: Weather.fetch(ctrl.city)
+      onclick: ctrl.fetchWeather
     }, 'GO!'),
     m('p', ctrl.cityGreeting)
   ]);
