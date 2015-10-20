@@ -1,33 +1,53 @@
 body {
-  background: lightblue;
-  color: white;
+  background: #add8e6;
+  color: #000;
   text-align: center;
+  font-size: 24px;
+  font-family: 'McLaren', cursive;
 }
 
 .spring {
   background-image: url(images/spring.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .summer {
   background-image: url(images/summer.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .fall {
   background-image: url(images/fall.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .winter {
   background-image: url(images/winter.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
+
 
 h1 {
-  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  font-family: 'Henny Penny', cursive;
 }
 
+h4 {
+  color: #fff;
+}
+
+
 .friend-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .friends {
+  padding: 20px;
+  border-bottom: 2px solid #e6bbad;
 }

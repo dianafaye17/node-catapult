@@ -18,7 +18,7 @@ App.view = function (ctrl) {
     m('div', {class: ctrl.season}, [
       m('h1', 'The Weather House'),
       m('img.friend-image.house-image', {src: "images/house.svg"}),
-      m('h4', '(← I change every season!)')
+      m('h4', '(I change every season!)')
     ]),
     m.component(MainComponent, { title: 'Welcome to The Weather House!'}),
     m.component(CityInputComponent),

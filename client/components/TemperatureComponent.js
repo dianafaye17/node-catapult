@@ -17,7 +17,7 @@ TemperatureComponent.view = function (ctrl, options) {
 
     if (tempInFarenheit < 50) {
       tempFeeling = 'Cold';
-      tempGreeting = 'Bring a sweater today!'
+      tempGreeting = 'Bring a sweater!'
     }
     else if (tempInFarenheit > 80) {
       tempFeeling = 'Hot';
