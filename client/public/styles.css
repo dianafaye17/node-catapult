@@ -6,28 +6,25 @@ body {
   font-family: 'McLaren', cursive;
 }
 
-.spring {
-  background-image: url(images/spring.jpg);
+.top-bar {
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.spring {
+  background-image: url(images/spring.jpg);
 }
 
 .summer {
   background-image: url(images/summer.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .fall {
   background-image: url(images/fall.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .winter {
   background-image: url(images/winter.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 

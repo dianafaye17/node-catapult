@@ -15,7 +15,7 @@ App.controller = function () {
 
 App.view = function (ctrl) {
   return [
-    m('div', {class: ctrl.season}, [
+    m('div.top-bar', {class: ctrl.season}, [
       m('h1', 'The Weather House'),
       m('img.friend-image.house-image', {src: "images/house.svg"}),
       m('h4', '(I change every season!)')
