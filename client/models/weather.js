@@ -2,6 +2,8 @@ var m = require('mithril');
 
 var Weather = module.exports;
 
+Weather.latitude = 5; // default
+
 Weather.fetch = function(city) {
   m.request({ 
     method: 'POST', 
@@ -10,6 +12,8 @@ Weather.fetch = function(city) {
   })
     .then(function (res) {
       Weather.report = res;
+      Weather.latitude = Weather.report.coord.lat;
+      Weather.getSeason();
       return Weather.report;
     })
 };
@@ -20,16 +24,36 @@ Weather.getSeason = function() {
     var month = date.getMonth();
 
     if (month === 11 || month < 2) { // 11, 0, 1
-      return 'winter';
+      if (Weather.latitude > 0) {
+        return 'winter'; 
+      }
+      else {
+        return 'summer';
+      }
     }
     else if (month > 1 && month < 5) {  // 2, 3, 4
-      return 'spring';
+      if (Weather.latitude > 0) {
+       return 'spring';
+      }
+      else {
+        return 'fall';
+      }
     }
     else if (month > 4 && month < 8) { // 5, 6, 7
-      return 'summer';
+      if (Weather.latitude > 0) {
+        return 'summer';
+      }
+      else {
+        return 'winter';
+      }
     }
     else { // 8, 9, 10
-      return 'fall';
+      if (Weather.latitude > 0) {
+        return 'fall';  
+      }
+      else {
+        return 'spring';
+      }
     }
 }
 
