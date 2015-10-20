@@ -1,6 +1,5 @@
 var m = require('mithril');
-var Location = require('../models/location');
-
+var CityInputComponent = require('./CityInputComponent');
 
 var MainComponent = module.exports;
 
