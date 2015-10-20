@@ -1,6 +1,7 @@
 var m = require('mithril');
 var Weather = require('../models/weather');
 var WeatherDisplayComponent = require('./WeatherDisplayComponent');
+var _ = require('underscore');
 
 
 var CityInputComponent = module.exports;
@@ -11,7 +12,7 @@ CityInputComponent.controller = function (options) {
   ctrl.inputDirty = false;
 
   ctrl.updateCity = function(e) {
-    ctrl.city = e.target['value'];
+    ctrl.city = _.escape(e.target['value']);
     ctrl.inputDirty = true;
 
     if (ctrl.inputDirty) {
