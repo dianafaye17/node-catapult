@@ -12,6 +12,8 @@ TemperatureComponent.view = function (ctrl, options) {
   if (Weather.report) {
 
     var tempInFarenheit = Math.round(Number(JSON.stringify(Weather.report["main"]["temp"])));
+    var tempInCelcius = Math.round((tempInFarenheit - 32) * 5 / 9);
+
     var tempFeeling = 'Happy'; // default
     var tempGreeting = 'Have a great day!' // default
 
@@ -29,7 +31,7 @@ TemperatureComponent.view = function (ctrl, options) {
 
     return m('.temperature-component', [
       m('p','Today, it feels '+ tempFeeling + ' outside.'),
-      m('p', 'Temperature: ' + tempInFarenheit + '°F'),
+      m('p', 'Temperature: ' + tempInFarenheit + '°F/ ' + tempInCelcius + '°C'),
       m('p', tempGreeting)
     ]);
   }

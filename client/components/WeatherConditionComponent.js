@@ -13,12 +13,18 @@ WeatherConditionComponent.view = function (ctrl, options) {
     
     if (Weather.wetWeatherConditions.hasOwnProperty(Weather.report["weather"][0]["id"])) {
       return m('.weather-condition-component', [
-        m('img.friend-image .rainy-image', {src: "images/kasapanda.svg"}),
+        m('img.friend-image', {src: "images/kasapanda.svg"}),
+        m('p', JSON.stringify(Weather.report["weather"][0]["main"]))
+      ]);
+    }
+    else if (Weather.cloudyWeatherConditions.hasOwnProperty(Weather.report["weather"][0]["id"])) {
+      return m('.weather-condition-component', [
+        m('img.friend-image', {src: "images/cloud.svg"}),
         m('p', JSON.stringify(Weather.report["weather"][0]["main"]))
       ]);
     }
     else return m('.weather-condition-component', [
-      m('img.friend-image .sunny-image', {src: "images/sakurausagi.svg"}),
+      m('img.friend-image', {src: "images/sakurausagi.svg"}),
       m('p', JSON.stringify(Weather.report["weather"][0]["main"]))
     ]);
   }

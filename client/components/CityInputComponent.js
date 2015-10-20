@@ -35,7 +35,7 @@ CityInputComponent.view = function (ctrl, options) {
     m('button.btn .btn-primary', {
       onclick: ctrl.fetchWeather
     }, 'GO!'),
-    m('p', ctrl.cityGreeting)
+    m('p.city-greeting', ctrl.cityGreeting)
   ]);
 };
 

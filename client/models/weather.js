@@ -78,3 +78,14 @@ Weather.wetWeatherConditions = {
       961: 'violent storm',
       962: 'hurricane'
     };
+
+
+    Weather.cloudyWeatherConditions = {
+      701: 'mist',
+      721: 'haze',
+      741: 'fog',
+      801: 'few clouds',
+      802: 'scattered clouds',
+      803: 'broken clouds',
+      804: 'overcast clouds',
+    };

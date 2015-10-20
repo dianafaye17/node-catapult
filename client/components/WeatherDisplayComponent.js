@@ -14,8 +14,7 @@ WeatherDisplayComponent.view = function (ctrl, options) {
   if (Weather.report) {
     return m('.weather-text-component', [
       WeatherConditionComponent,
-      TemperatureComponent,
-      m('p', ctrl.season)
+      TemperatureComponent
     ]);
   }
   else {

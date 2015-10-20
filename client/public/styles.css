@@ -8,7 +8,7 @@ body {
 
 .jumbotron {
   background-repeat: no-repeat;
-  color: #fff;
+  background-size: 100%;
 }
 
 .city-input-wrapper {
@@ -17,20 +17,23 @@ body {
 
 .spring {
   background-image: url(images/spring.jpg);
+  color: #000
 }
 
 .summer {
   background-image: url(images/summer.jpg);
+  color: #fff;
 }
 
 .fall {
   background-image: url(images/fall.jpg);
+  color: #fff;
 }
 
 .winter {
   background-image: url(images/winter.jpg);
+  color: #000;
 }
-
 
 h1 {
   color: #fff;
