@@ -1,7 +1,7 @@
 var m = require('mithril');
 var MainComponent = require('./components/MainComponent');
 var CityInputComponent = require('./components/CityInputComponent');
-var WeatherTextDisplayComponent = require('./components/WeatherTextDisplayComponent');
+var WeatherDisplayComponent = require('./components/WeatherDisplayComponent');
 
 
 window.App = {};
@@ -14,7 +14,7 @@ App.view = function (ctrl) {
     m('h1', 'The Weather House'),
     m.component(MainComponent, { title: 'Welcome to The Weather House!' }),
     m.component(CityInputComponent),
-    m.component(WeatherTextDisplayComponent)
+    m.component(WeatherDisplayComponent)
   ];
 };
 
