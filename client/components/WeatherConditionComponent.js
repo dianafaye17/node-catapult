@@ -13,12 +13,12 @@ WeatherConditionComponent.view = function (ctrl, options) {
     
     if (Weather.wetWeatherConditions.hasOwnProperty(Weather.report["weather"][0]["id"])) {
       return m('.weather-condition-component', [
-        m('p', 'wet'),
+        m('img.friend-image .rainy-image', {src: "kasapanda.svg"}),
         m('p', JSON.stringify(Weather.report["weather"][0]["main"]))
       ]);
     }
     else return m('.weather-condition-component', [
-      m('p', 'not wet'),
+      m('img.friend-image .sunny-image', {src: "sakurausagi.svg"}),
       m('p', JSON.stringify(Weather.report["weather"][0]["main"]))
     ]);
   }
