@@ -10,12 +10,11 @@ window.App = {};
 App.controller = function () {
   ctrl = this;
   ctrl.season = Weather.getSeason();
-  console.log(ctrl.season)
 };
 
 App.view = function (ctrl) {
   return [
-    m('div.top-bar', {class: ctrl.season}, [
+    m('div.top-bar .jumbotron', {class: ctrl.season}, [
       m('h1', 'The Weather House'),
       m('img.friend-image.house-image', {src: "images/house.svg"}),
       m('h4', '(I change every season!)')

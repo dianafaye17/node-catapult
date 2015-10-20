@@ -27,12 +27,12 @@ CityInputComponent.controller = function (options) {
 CityInputComponent.view = function (ctrl, options) {
   return m('.city-input-wrapper', [
     m('label', 'What City Do You Live In? ', [
-      m('input[type=text].city-input', {
+      m('input[type=text].city-input .form-control', {
         placeholder: 'Example:  Austin',
         oninput: ctrl.updateCity}
       ),
     ]),
-    m('button', {
+    m('button.btn .btn-primary', {
       onclick: ctrl.fetchWeather
     }, 'GO!'),
     m('p', ctrl.cityGreeting)

@@ -6,9 +6,13 @@ body {
   font-family: 'McLaren', cursive;
 }
 
-.top-bar {
-  background-size: 100%;
+.jumbotron {
   background-repeat: no-repeat;
+  color: #fff;
+}
+
+.city-input-wrapper {
+  padding: 10px;
 }
 
 .spring {
@@ -33,11 +37,6 @@ h1 {
   font-size: 54px;
   font-family: 'Henny Penny', cursive;
 }
-
-h4 {
-  color: #fff;
-}
-
 
 .friend-image {
   width: 150px;

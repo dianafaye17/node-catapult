@@ -9,9 +9,9 @@ MainComponent.controller = function (options) {
 
 MainComponent.view = function (ctrl, options) {
   return m('.main-component', [
-    m('h2', options.title),
+    m('h2.lead', options.title),
     m('span.main', [
-      m('p.main-text', 'Hi! We are having a wonderful day here at The Weather House. We hope that you have a great day, too.'
+      m('p.main-text.lead', 'Hi! We are having a wonderful day here at The Weather House. We hope that you have a great day, too.'
     )])
   ]);
 };
