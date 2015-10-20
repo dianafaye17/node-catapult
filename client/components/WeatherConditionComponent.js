@@ -1,8 +1,8 @@
 var m = require('mithril');
 var Weather = require('../models/weather');
 
-
 var WeatherConditionComponent = module.exports;
+
 
 WeatherConditionComponent.controller = function (options) {
   var ctrl = this;

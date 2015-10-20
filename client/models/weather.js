@@ -14,6 +14,26 @@ Weather.fetch = function(city) {
     })
 };
 
+Weather.getSeason = function() {
+
+    var date = new Date();
+    var month = date.getMonth();
+
+    if (month === 11 || month < 2) { // 11, 0, 1
+      return 'NorthernWinter';
+    }
+    else if (month > 1 && month < 5) {  // 2, 3, 4
+      return 'NorthernSpring';
+    }
+    else if (month > 4 && month < 8) { // 5, 6, 7
+      return 'NorthernSummer';
+    }
+    else if (month > 7) { // 8, 9, 10
+      return 'NorthernFall';
+    }
+    else {return 'Season error'};
+}
+
 Weather.wetWeatherConditions = {
       200: 'thunderstorm with light rain',
       201: 'thunderstorm with rain',

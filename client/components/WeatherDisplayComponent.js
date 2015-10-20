@@ -4,17 +4,18 @@ var WeatherConditionComponent = require('./WeatherConditionComponent');
 var TemperatureComponent = require('./TemperatureComponent');
 
 
-var WeatherTextDisplayComponent = module.exports;
+var WeatherDisplayComponent = module.exports;
 
-WeatherTextDisplayComponent.controller = function (options) {
+WeatherDisplayComponent.controller = function (options) {
   var ctrl = this;
 };
 
-WeatherTextDisplayComponent.view = function (ctrl, options) {
+WeatherDisplayComponent.view = function (ctrl, options) {
   if (Weather.report) {
     return m('.weather-text-component', [
       WeatherConditionComponent,
-      TemperatureComponent
+      TemperatureComponent,
+      m('p', ctrl.season)
     ]);
   }
   else {
