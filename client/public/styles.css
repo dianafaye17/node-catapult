@@ -1,22 +1,23 @@
 body {
   background: lightblue;
   color: white;
+  text-align: center;
 }
 
 .spring {
-  background-image: url(spring.jpg);
+  background-image: url(images/spring.jpg);
 }
 
 .summer {
-  background-image: url(summer.jpg);
+  background-image: url(images/summer.jpg);
 }
 
 .fall {
-  background-image: url(fall.jpg);
+  background-image: url(images/fall.jpg);
 }
 
 .winter {
-  background-image: url(winter.jpg);
+  background-image: url(images/winter.jpg);
 }
 
 h1 {
@@ -26,4 +27,7 @@ h1 {
 .friend-image {
   width: 100px;
   height: 100px;
+}
+
+.friends {
 }

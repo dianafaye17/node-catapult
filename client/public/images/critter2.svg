@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg6155"
+    viewBox="0 0 770.23 787.07"
+    version="1.1"
+  >
+  <defs
+      id="defs6157"
+    >
+    <filter
+        id="filter4356"
+        width="1.2481"
+        y="-.21472"
+        x="-.12405"
+        height="1.4294"
+        color-interpolation-filters="sRGB"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur4358"
+          stdDeviation="52.129511"
+      />
+    </filter
+    >
+  </defs
+  >
+  <g
+      id="layer1"
+      transform="translate(199.34 -161.65)"
+    >
+    <g
+        id="g4243"
+        opacity=".34979"
+        filter="url(#filter4356)"
+        fill="#404040"
+        transform="matrix(.37427 .27472 -.45716 .29757 -276.82 330.83)"
+      >
+      <path
+          id="path3755-35"
+          fill-rule="evenodd"
+          transform="matrix(.98061 0 0 1.0248 772.76 52.921)"
+          d="m519.67-266.03c-31.831-39.962-24.228-97.38 16.983-128.25 41.211-30.867 100.42-23.494 132.25 16.468 31.831 39.962 24.228 97.38-16.983 128.25-40.921 30.649-99.663 23.623-131.68-15.75"
+      />
+      <path
+          id="path3757-8"
+          fill-rule="evenodd"
+          transform="matrix(1.1713 0 0 1.2883 927.48 -77.665)"
+          d="m330.73-112.79c-17.363-21.854-13.215-53.255 9.2634-70.135 22.479-16.88 54.776-12.848 72.139 9.0061s13.215 53.255-9.2634 70.135c-22.32 16.761-54.362 12.919-71.823-8.6134"
+      />
+      <path
+          id="path3755-3-95"
+          fill-rule="evenodd"
+          transform="matrix(-.98061 0 0 1.0248 2201.3 48.236)"
+          d="m519.67-266.03c-31.831-39.962-24.228-97.38 16.983-128.25 41.211-30.867 100.42-23.494 132.25 16.468 31.831 39.962 24.228 97.38-16.983 128.25-40.921 30.649-99.663 23.623-131.68-15.75"
+      />
+      <path
+          id="path3757-6-9"
+          fill-rule="evenodd"
+          transform="matrix(-1.1713 0 0 1.2883 2046.6 -82.349)"
+          d="m330.73-112.79c-17.363-21.854-13.215-53.255 9.2634-70.135 22.479-16.88 54.776-12.848 72.139 9.0061s13.215 53.255-9.2634 70.135c-22.32 16.761-54.362 12.919-71.823-8.6134"
+      />
+      <path
+          id="path3755-3-9-3"
+          fill-rule="evenodd"
+          transform="matrix(-.39464 0 0 .43822 1636.7 469.85)"
+          d="m519.67-266.03c-31.831-39.962-24.228-97.38 16.983-128.25 41.211-30.867 100.42-23.494 132.25 16.468 31.831 39.962 24.228 97.38-16.983 128.25-40.921 30.649-99.663 23.623-131.68-15.75"
+      />
+      <path
+          id="path3755-3-9-0-5"
+          fill-rule="evenodd"
+          transform="matrix(-.39464 0 0 .43822 1827.9 464.42)"
+          d="m519.67-266.03c-31.831-39.962-24.228-97.38 16.983-128.25 41.211-30.867 100.42-23.494 132.25 16.468 31.831 39.962 24.228 97.38-16.983 128.25-40.921 30.649-99.663 23.623-131.68-15.75"
+      />
+      <rect
+          id="rect2985-7"
+          fill-rule="evenodd"
+          ry="170.34"
+          height="573.54"
+          width="365.77"
+          y="-258.34"
+          x="1303.7"
+      />
+      <path
+          id="path3807-7-41"
+          fill-rule="evenodd"
+          transform="matrix(.35138 0 0 .28382 1461.9 -79.773)"
+          d="m228.17-234.44c-17.845-46.206-13.582-112.6 9.5208-148.28 23.103-35.69 56.298-27.164 74.142 19.042 17.845 46.206 13.582 112.6-9.5208 148.29-22.94 35.438-55.872 27.314-73.818-18.211"
+      />
+      <path
+          id="path3807-7-0-7"
+          fill-rule="evenodd"
+          transform="matrix(0 .48651 -.21625 0 1306.7 -245.44)"
+          d="m228.17-234.44c-17.845-46.206-13.582-112.6 9.5208-148.28 23.103-35.69 56.298-27.164 74.142 19.042 17.845 46.206 13.582 112.6-9.5208 148.29-22.94 35.438-55.872 27.314-73.818-18.211"
+      />
+      <path
+          id="path3807-7-0-5-9"
+          fill-rule="evenodd"
+          transform="matrix(0 .48651 -.20433 0 1540.3 -246.87)"
+          d="m228.17-234.44c-17.845-46.206-13.582-112.6 9.5208-148.28 23.103-35.69 56.298-27.164 74.142 19.042 17.845 46.206 13.582 112.6-9.5208 148.29-22.94 35.438-55.872 27.314-73.818-18.211"
+      />
+      <path
+          id="path3863-7"
+          fill-rule="evenodd"
+          transform="matrix(.84746 0 0 .80393 1070.9 -450.83)"
+          d="m429.01 481.18c-28.455-31.845-21.658-77.6 15.182-102.2 36.84-24.597 89.772-18.721 118.23 13.123 28.455 31.845 21.658 77.6-15.182 102.2-36.581 24.424-89.093 18.825-117.71-12.551"
+      />
+      <path
+          id="path3807-76"
+          fill-rule="evenodd"
+          transform="matrix(.35138 0 0 .28382 1328.6 -75.929)"
+          d="m228.17-234.44c-17.845-46.206-13.582-112.6 9.5208-148.28 23.103-35.69 56.298-27.164 74.142 19.042 17.845 46.206 13.582 112.6-9.5208 148.29-22.94 35.438-55.872 27.314-73.818-18.211"
+      />
+      <g
+          id="g3885-7"
+          transform="matrix(.39661 0 0 -.53875 1363.6 -340)"
+        >
+        <path
+            id="path3865-5"
+            transform="translate(-420 -2.8571)"
+            d="m633.75-422.28c-8.5638-17.348 7.1176-35.727 35.025-41.05 27.908-5.3234 57.474 4.4244 66.038 21.773 2.1458 4.3469 2.8169 8.9234 1.9707 13.44"
+        />
+        <path
+            id="path3865-7-0"
+            transform="translate(-305.71 -4.1008)"
+            d="m633.75-422.28c-8.5638-17.348 7.1176-35.727 35.025-41.05 27.908-5.3234 57.474 4.4244 66.038 21.773 2.1458 4.3469 2.8169 8.9234 1.9707 13.44"
+        />
+      </g
+      >
+      <path
+          id="path3807-7-4-0"
+          fill-rule="evenodd"
+          transform="matrix(0 .24328 -.17571 0 1439.1 -188.91)"
+          d="m228.17-234.44c-17.845-46.206-13.582-112.6 9.5208-148.28 23.103-35.69 56.298-27.164 74.142 19.042 17.845 46.206 13.582 112.6-9.5208 148.29-22.94 35.438-55.872 27.314-73.818-18.211"
+      />
+      <path
+          id="path3863-5-6"
+          fill-rule="evenodd"
+          transform="matrix(1.4915 0 0 1.4071 750.56 -473.72)"
+          d="m429.01 481.18c-28.455-31.845-21.658-77.6 15.182-102.2 36.84-24.597 89.772-18.721 118.23 13.123 28.455 31.845 21.658 77.6-15.182 102.2-36.581 24.424-89.093 18.825-117.71-12.551"
+      />
+      <path
+          id="rect3988-6-13"
+          d="m1590.8 4.7131c-0.3614 0.79006-0.6861 1.6047-0.9719 2.443l-19.972 58.589c-5.0714 14.877 4.1133 31.376 20.594 36.994 16.48 5.618 33.83-1.836 38.902-16.713l19.973-58.589c0.2857-0.83824 0.5262-1.6816 0.7227-2.5279"
+      />
+      <path
+          id="rect3988-6-1-5"
+          d="m1322.5 39.336c0.4203 0.76035 0.8821 1.5058 1.3861 2.2341l35.226 50.9c8.9444 12.924 27.671 15.352 41.988 5.4439 14.317-9.9083 18.643-28.29 9.6983-41.214l-35.2-50.901c-0.504-0.72822-1.039-1.4231-1.6025-2.0844"
+      />
+    </g
+    >
+    <path
+        id="path3755"
+        stroke-linejoin="round"
+        d="m519.67-266.03a94.286 91.429 0 1 1 0.57798 0.71818"
+        fill-rule="evenodd"
+        fill-opacity=".98039"
+        transform="matrix(.98061 0 0 1.0248 -685.76 594.01)"
+        stroke="#bc5858"
+        stroke-linecap="round"
+        stroke-width="7.9804"
+        fill="#ebcdaa"
+    />
+    <path
+        id="path3757"
+        d="m330.73-112.79a51.429 50 0 1 1 0.31526 0.39276"
+        fill-opacity=".98039"
+        fill-rule="evenodd"
+        transform="matrix(1.1713 0 0 1.2883 -531.04 463.43)"
+        fill="#fff"
+    />
+    <path
+        id="path3755-3"
+        stroke-linejoin="round"
+        d="m519.67-266.03a94.286 91.429 0 1 1 0.57798 0.71818"
+        fill-rule="evenodd"
+        fill-opacity=".98039"
+        transform="matrix(-.98061 0 0 1.0248 742.82 589.33)"
+        stroke="#bc5858"
+        stroke-linecap="round"
+        stroke-width="7.9804"
+        fill="#ebcdaa"
+    />
+    <path
+        id="path3757-6"
+        d="m330.73-112.79a51.429 50 0 1 1 0.31526 0.39276"
+        fill-opacity=".98039"
+        fill-rule="evenodd"
+        transform="matrix(-1.1713 0 0 1.2883 588.1 458.74)"
+        fill="#fff"
+    />
+    <path
+        id="path3755-3-9"
+        stroke-linejoin="round"
+        d="m519.67-266.03a94.286 91.429 0 1 1 0.57798 0.71818"
+        fill-rule="evenodd"
+        fill-opacity=".98039"
+        transform="matrix(-.39464 0 0 .43822 178.19 1010.9)"
+        stroke="#bc5858"
+        stroke-linecap="round"
+        stroke-width="19.237"
+        fill="#ebcdaa"
+    />
+    <path
+        id="path3755-3-9-0"
+        stroke-linejoin="round"
+        d="m519.67-266.03a94.286 91.429 0 1 1 0.57798 0.71818"
+        fill-rule="evenodd"
+        fill-opacity=".98039"
+        transform="matrix(-.39464 0 0 .43822 369.34 1005.5)"
+        stroke="#bc5858"
+        stroke-linecap="round"
+        stroke-width="19.237"
+        fill="#ebcdaa"
+    />
+    <rect
+        id="rect2985"
+        stroke-linejoin="round"
+        fill-opacity=".98039"
+        fill-rule="evenodd"
+        ry="170.34"
+        height="573.54"
+        width="365.77"
+        stroke="#bc5858"
+        stroke-linecap="round"
+        y="282.75"
+        x="-154.86"
+        stroke-width="7.873"
+        fill="#ebcdaa"
+    />
+    <path
+        id="path3807-7"
+        fill-rule="evenodd"
+        fill="#5a0c26"
+        transform="matrix(.35138 0 0 .28382 3.3625 461.32)"
+        d="m228.17-234.44a52.857 105.71 0 1 1 0.32402 0.8304"
+    />
+    <path
+        id="path3807-7-0"
+        fill-rule="evenodd"
+        fill="#ed656e"
+        transform="matrix(0 .48651 -.21625 0 -151.87 295.65)"
+        d="m228.17-234.44a52.857 105.71 0 1 1 0.32402 0.8304"
+    />
+    <path
+        id="path3807-7-0-5"
+        fill-rule="evenodd"
+        fill="#ed656e"
+        transform="matrix(0 .48651 -.20433 0 81.815 294.22)"
+        d="m228.17-234.44a52.857 105.71 0 1 1 0.32402 0.8304"
+    />
+    <path
+        id="path3863"
+        fill-rule="evenodd"
+        fill="#fff"
+        transform="matrix(.84746 0 0 .80393 -387.58 90.26)"
+        d="m429.01 481.18a84.286 72.857 0 1 1 0.51668 0.5723"
+    />
+    <path
+        id="path3807"
+        fill-rule="evenodd"
+        fill="#5a0c26"
+        transform="matrix(.35138 0 0 .28382 -129.88 465.16)"
+        d="m228.17-234.44a52.857 105.71 0 1 1 0.32402 0.8304"
+    />
+    <path
+        id="path3865"
+        d="m633.75-422.28a52.857 32.857 0 1 1 103.03 -5.838"
+        transform="matrix(.39661 0 0 -.53875 -259.54 200.63)"
+        stroke="#5a0c26"
+        stroke-width="12"
+        fill="none"
+    />
+    <path
+        id="path3865-7"
+        d="m633.75-422.28a52.857 32.857 0 1 1 103.03 -5.838"
+        transform="matrix(.39661 0 0 -.53875 -216.21 201.3)"
+        stroke="#5a0c26"
+        stroke-width="12"
+        fill="none"
+    />
+    <path
+        id="path3807-7-4"
+        fill-rule="evenodd"
+        fill="#5a0c26"
+        transform="matrix(0 .24328 -.17571 0 -19.457 352.18)"
+        d="m228.17-234.44a52.857 105.71 0 1 1 0.32402 0.8304"
+    />
+    <path
+        id="path3863-5"
+        fill-rule="evenodd"
+        fill="#fff"
+        transform="matrix(1.4915 0 0 1.4071 -707.96 67.369)"
+        d="m429.01 481.18a84.286 72.857 0 1 1 0.51668 0.5723"
+    />
+    <path
+        id="rect3988-6"
+        stroke-linejoin="round"
+        d="m132.25 545.8c-0.36135 0.79006-0.68604 1.6047-0.97182 2.443l-19.973 58.589c-5.0714 14.877 4.1133 31.376 20.594 36.994 16.48 5.618 33.83-1.836 38.902-16.713l19.973-58.589c0.28574-0.83824 0.52624-1.6816 0.72271-2.5279"
+        fill-opacity=".98039"
+        stroke="#bc5858"
+        stroke-linecap="round"
+        stroke-width="8"
+        fill="#ebcdaa"
+    />
+    <path
+        id="rect3988-6-1"
+        stroke-linejoin="round"
+        d="m-136.04 580.43c0.42028 0.76035 0.8821 1.5058 1.3861 2.2341l35.226 50.9c8.9444 12.924 27.671 15.352 41.988 5.4439 14.317-9.9083 18.643-28.29 9.6982-41.214l-35.226-50.9c-0.50398-0.72822-1.039-1.4231-1.6025-2.0844"
+        fill-opacity=".98039"
+        stroke="#bc5858"
+        stroke-linecap="round"
+        stroke-width="8"
+        fill="#ebcdaa"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Mouse</dc:title
+        >
+        <dc:date
+          >2013-08-29T20:30:05</dc:date
+        >
+        <dc:description
+          >A cute mouse-like creature.</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/182718/mouse-by-anarres-182718</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >anarres</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >animal</rdf:li
+            >
+            <rdf:li
+              >cartoon</rdf:li
+            >
+            <rdf:li
+              >cute</rdf:li
+            >
+            <rdf:li
+              >mouse</rdf:li
+            >
+            <rdf:li
+              >rodent</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

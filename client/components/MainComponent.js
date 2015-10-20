@@ -10,8 +10,8 @@ MainComponent.controller = function (options) {
 MainComponent.view = function (ctrl, options) {
   return m('.main-component', [
     m('h2', options.title),
-    m('section.main-section', [
+    m('span.main', [
       m('p.main-text', 'Hi! We are having a happy day. We hope that you have a great day, too.'
-      )])
+    )])
   ]);
 };

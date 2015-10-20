@@ -17,11 +17,19 @@ App.view = function (ctrl) {
   return [
     m('div', {class: ctrl.season}, [
       m('h1', 'The Weather House'),
+      m('img.friend-image.house-image', {src: "images/house.svg"}),
       m('h4', '(← I change every season!)')
     ]),
     m.component(MainComponent, { title: 'Welcome to The Weather House!'}),
     m.component(CityInputComponent),
-    m.component(WeatherDisplayComponent)
+    m.component(WeatherDisplayComponent),
+    m('div.friends',[
+      m('img.friend-image', {src: "images/critter1.svg"}),
+      m('img.friend-image', {src: "images/girl.svg"}),
+      m('img.friend-image', {src: "images/boy.svg"}),
+      m('img.friend-image', {src: "images/critter3.svg"}),
+      m('img.friend-image', {src: "images/critter2.svg"}),
+    ])
   ];
 };
 
